@@ -6,8 +6,6 @@ from rest_framework.authtoken.models import Token
 from rest_framework.views import APIView
 
 
-# Create your views here.
-
 # Register Api
 class Register(APIView):
     def post(self, request):
